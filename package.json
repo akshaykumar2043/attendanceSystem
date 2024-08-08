@@ -1,0 +1,26 @@
+{
+  "name": "employeeattendancemanagementsystem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.2",
+    "multer": "^1.4.5-lts.1",
+    "node": "^20.16.0",
+    "nodemon": "^3.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.2",
+    "typescript": "^5.5.4"
+  }
+}
